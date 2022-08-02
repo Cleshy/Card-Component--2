@@ -100,21 +100,30 @@ body {
   background-color: hsl(var(--clr-very-dark-blue));
 }
 
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.box-center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .box {
   background-color: hsl(var(--clr-dark-blue));
   border-radius: 10px;
   color: hsl(var(--clr-white-1));
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  left: 50%;
   overflow: hidden;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  max-width: 80%;
 }
 
 .content-box {
-  padding: 3rem;
+  padding: 4rem 5rem;
 }
 
 .heading-primary {
@@ -172,7 +181,6 @@ body {
 
 @media (max-width: 52em) {
   .box {
-    width: 80%;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr;
     text-align: center;
@@ -199,5 +207,9 @@ body {
 
   .about-box div:not(:last-child) {
     margin-right: 0;
+  }
+
+  .content-box {
+    padding: 2rem 2.5rem;
   }
 }
