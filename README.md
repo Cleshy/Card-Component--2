@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Cleshy/Card-Component](https://github.com/Cleshy/Card-Component)
-- Live Site URL: [https://admirable-medovik-49ee7e.netlify.app/](https://admirable-medovik-49ee7e.netlify.app/)
+- Solution URL: [https://github.com/Cleshy/Card-Component--2](https://github.com/Cleshy/Card-Component--2)
+- Live Site URL: [https://peppy-zuccutto-de9d53.netlify.app/](https://peppy-zuccutto-de9d53.netlify.app/)
 
 ## My process
 
