@@ -21,35 +21,37 @@
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
-    <main>
-      <div class="container box-center">
-        <div class="box">
-          <div class="content-box">
-            <h1 class="heading-primary">
-              Get <span>insights</span> that help your business grow.
-            </h1>
-            <p class="description">
-              Discover the benefits of data alaytics and make better decisions
-              regarding revenue, customer experience, and overall efficiency.
-            </p>
-            <div class="about-box">
-              <div class="companies-box">
-                <p>10k+</p>
-                <span>Companies</span>
-              </div>
-              <div class="templates-box">
-                <p>314</p>
-                <span>Templates</span>
-              </div>
-              <div class="queries-box">
-                <p>12M+</p>
-                <span>Queries</span>
-              </div>
-            </div>
+    <div class="container">
+      <div class="text-container">
+        <h1 class="heading-primary">
+          Get <span>insights</span> that help your business grow.
+        </h1>
+        <p class="description">
+          Discover the benefits of data alaytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="info-container">
+          <div class="info">
+            <p class="info-number">10k+</p>
+            <span class="info-text">Companies</span>
           </div>
-          <div class="image-box"></div>
+          <div class="info">
+            <p class="info-number">314</p>
+            <span class="info-text">Templates</span>
+          </div>
+          <div class="info">
+            <p class="info-number">12M+</p>
+            <span class="info-text">Queries</span>
+          </div>
         </div>
       </div>
-    </main>
+      <picture class="img-container">
+        <source
+          media="(max-width: 375px)"
+          srcset="images/image-header-mobile.jpg"
+        />
+        <img class="img" src="images/image-header-desktop.jpg" alt="Image" />
+      </picture>
+    </div>
   </body>
 </html>
